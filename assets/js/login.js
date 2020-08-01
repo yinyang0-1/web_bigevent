@@ -53,7 +53,7 @@ $(function () {
                     return layer.msg(res.message);
                 }
                 layer.msg(res.msg)
-                localStorage.setItem('taken', res.token)
+                localStorage.setItem('token', res.token)
                 location.href='/index.html'
             }
         })
